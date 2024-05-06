@@ -1,0 +1,46 @@
+.cardResult {
+  margin-top: 20px;
+  border-radius: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 35%;
+  height: 180px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 0.8;
+background-color: rgb( rgb(163, 163, 255,0.3));
+}
+
+.names {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  background-color: rgb(181, 101, 255);
+  width: 130px;
+  height: 40px;
+  border: none;
+
+}
+button:hover {
+  background-color: rgb(198, 136, 255);
+  width: 130px;
+  height: 40px;
+  border: none;
+ 
+}
+.carddd {
+  margin-top: 0px;
+  background-image: url('/src/image/wallpapersden.com_new-york-cityscape_1920x1080.jpg') ;
+ 
+}

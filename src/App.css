@@ -1,7 +1,24 @@
 .App {
   text-align: center;
 }
+.HEATHER {
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  background-color: #ffffff;
+  /* height: 100px; */
+  position: fixed;
+  top: 0%;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
 
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+  padding: 24px 38px;
+  margin: 0;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +52,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+li {
+  color: #444444;
+}
+
+.Linkk {
+  text-decoration: none;
+  color: #444444;
+}
+.Linkk:hover {
+  color: #61dafb;
 }

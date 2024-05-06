@@ -1,0 +1,31 @@
+.cards2 {
+    display: flex;
+    height: 500px;
+    overflow: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 110x;
+    opacity: 0.7;
+  }
+  
+  .cardResult {
+    margin-top: 20px;
+  
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    border: none;
+    background-color: rgb(255, 255, 255, 1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  
+    width: 20%;
+    height: 380px;
+  }
+  
+  .names {
+    display: flex;
+    justify-content: space-around;
+  }

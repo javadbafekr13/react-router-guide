@@ -1,0 +1,48 @@
+.firstPartOfFooter{
+    display: flex;
+    justify-content: center;
+  
+  
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  margin-top: 5%;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(240, 240, 240);
+  
+}
+
+.secendPartOfFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+
+
+h5{
+    color: black;
+}
+h5:hover{
+    color: rgb(255, 27, 27);
+}
+
+
+
+
+
+
+
+h4{
+    color: rgb(0, 0, 0);
+}
+
+h4:hover{
+    color: rgb(255, 27, 27);
+}
+
